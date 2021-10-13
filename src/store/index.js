@@ -1,12 +1,8 @@
 import { createStore } from 'vuex'
+import { landing } from './landing'
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    landing
   }
 })
