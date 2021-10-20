@@ -9,12 +9,18 @@ export const landing = {
   state: {
     links: [
       {name: 'Home', url: {name: 'Home'}},
-      {name: 'About Us', url: {name: 'About Us'}},
-      {name: 'Products', url: {name: 'Products'}},
+      {name: 'Local Market', url: {name: 'Local Market'}},
+      {name: 'Global Market', url: {name: 'Global Market'}},
+      {name: 'Product Estimator', url: {name: 'Product Estimator'}},
+      {name: 'Our Company', url: {name: 'Our Company'}},
+      {name: 'Our Team', url: {name: 'Our Team'}},
+      {name: 'Our Core Values', url: {name: 'Our Core Values'}},
       {name: 'Social Impact', url: {name: 'Social Impact'}},
-      {name: 'Blog', url: {name: 'Blog'}},
-      {name: 'Shop', url: {name: 'Shop'}},
-      {name: 'Contact Us', url: {name: 'Contact Us'}},
+      // {name: 'About Us', url: {name: 'About Us'}},
+      // {name: 'Products', url: {name: 'Products'}},
+      // {name: 'Blog', url: {name: 'Blog'}},
+      // {name: 'Shop', url: {name: 'Shop'}},
+      // {name: 'Contact Us', url: {name: 'Contact Us'}},
     ],
     helpLinks: [
       {name: 'FAQ', url: {name: 'FAQ'}},
