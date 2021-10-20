@@ -20,6 +20,7 @@
                 v-for="(link, index) in aboutLinks"
                 :key="index"
                 :to="link.url"
+                active-class="text-black"
                 class="text-sm transition duration-200 cursor-pointer hover:text-black"
               >
                   {{ link.name }}
@@ -75,7 +76,7 @@ export default {
     const aboutLinks = computed(() => store.getters['landing/getAboutLinks'])
 
     const toggleModal = (value) => {
-      show.value = value
+      showModal.value = value
     }
     const toggleDropdown = () => showDropdown.value = !showDropdown.value
 
