@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .responsive-container {
-  @apply max-w-7xl mx-auto px-8 sm:px-10 xl:px-20;
+  @apply px-8 mx-auto max-w-7xl sm:px-10;
 }

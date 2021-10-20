@@ -8,7 +8,7 @@
         <span class="font-semibold">{{ post.title }}</span>
         <div class="w-8 h-0.5 mt-2 bg-muted"></div>
       </div>
-      <router-link class="p-1 px-4 text-xs font-semibold uppercase transition duration-200 border-2 border-muted text-muted hover:bg-success hover:border-0 hover:border-success hover:text-white" :to="{name: 'Blog Post', params: { slug: this.post.slug }}">Read More</router-link>
+      <!-- <router-link class="p-1 px-4 text-xs font-semibold uppercase transition duration-200 border-2 border-muted text-muted hover:bg-success hover:border-0 hover:border-success hover:text-white" :to="{name: 'Blog Post', params: { slug: this.post.slug }}">Read More</router-link> -->
     </div>
   </div>
 </template>

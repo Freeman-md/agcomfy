@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-white md:w-5/6 lg:w-2/3">
+  <div class="w-full max-h-screen overflow-y-scroll bg-white md:w-5/6 lg:w-2/3">
   
     <!-- Header -->
     <div class="w-full py-6 bg-gray-100 border-b border-gray-300">

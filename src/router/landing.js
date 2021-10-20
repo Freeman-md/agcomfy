@@ -2,6 +2,8 @@ import Home from '@/views/Home.vue'
 import LocalMarket from '@/views/LocalMarket.vue'
 import GlobalMarket from '@/views/GlobalMarket.vue'
 import ProductEstimator from '@/views/ProductEstimator.vue'
+import AboutUs from '@/views/AboutUs.vue'
+import ContactUs from '@/views/ContactUs.vue'
 import OurCompany from '@/views/OurCompany.vue'
 import OurTeam from '@/views/OurTeam.vue'
 import OurCoreValues from '@/views/OurCoreValues.vue'
@@ -11,11 +13,9 @@ import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
 import TermsOfService from '@/views/TermsOfService.vue'
 import NotFound from '@/views/NotFound.vue'
 
-// import AboutUs from '@/views/AboutUs.vue'
 // import Products from '@/views/Products.vue'
 // import Blog from '@/views/Blog.vue'
 // import Shop from '@/views/Shop.vue'
-// import ContactUs from '@/views/ContactUs.vue'
 // import BlogPost from '@/views/BlogPost.vue'
 
 export default [
@@ -79,11 +79,16 @@ export default [
     name: '404',
     component: NotFound
   },
-  // {
-  //   path: '/about-us',
-  //   name: 'About Us',
-  //   component: AboutUs
-  // },
+  {
+    path: '/about-us',
+    name: 'About Us',
+    component: AboutUs
+  },
+  {
+    path: '/contact-us',
+    name: 'Contact Us',
+    component: ContactUs
+  },
   // {
   //   path: '/products',
   //   name: 'Products',
@@ -98,11 +103,6 @@ export default [
   //   path: '/shop',
   //   name: 'Shop',
   //   component: Shop
-  // },
-  // {
-  //   path: '/contact-us',
-  //   name: 'Contact Us',
-  //   component: ContactUs
   // },
   // {
   //   path: '/:slug',

@@ -90,16 +90,16 @@ export default {
 
 <style scoped>
 .vendor-enter-active{
-  transition: linear 1000ms;
+  transition: ease-in-out 2000ms;
 }   
 .vendor-enter-from, .vendor-leave-to {
-  height: 0;
+  transform: translateY(-10);
 }
 .vendor-enter-to, .vendor-leave-from {
-  height: fit-content;
+  transform: translateY(0);
 }
 
 .vendor-leave-active{
-  transition: linear 1000ms;
+  transition: ease-in-out 2000ms;
 }
 </style>
