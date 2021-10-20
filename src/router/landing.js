@@ -36,7 +36,7 @@ export default [
   },
   {
     path: '/product-estimator',
-    name: 'ProductEstimator',
+    name: 'Product Estimator',
     component: ProductEstimator
   },
   {
@@ -51,7 +51,7 @@ export default [
   },
   {
     path: '/our-core-values',
-    name: 'Our CoreValues',
+    name: 'Our Core Values',
     component: OurCoreValues
   },
   {
