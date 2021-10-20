@@ -3,12 +3,12 @@
     <div class="responsive-container">
       <div class="flex flex-col items-start justify-center w-1/2 space-y-3 text-white">
       <h2 class="text-3xl">
-        Agribusiness made Simple and Comfy
+        Powering a Comfy, Fairer Trade to Enrich Farmers
         </h2>
       <h3>
-        Agcomfy is leading to accelerate the development of Africa’s agricultural potential and its value chain system by ensuring access to quality farm tech services on key needed farming needs with the focus of maximising agribusiness prosperity.
+        Agcomfy is a B2B Digital Marketplace where you can get a comfy access to a fairer agricultural trade in an easy, fast, transparent and wider market opportunities improving returns on investment, enriching farmer's bottom-line and also ultimately, transforming their lives.
       </h3>
-      <Button text="Find Out More" />
+      <Button text="Sign Up Here" />
     </div>
     </div>
   </div>
